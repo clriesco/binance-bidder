@@ -1,0 +1,22 @@
+{
+  "name": "bitcoin-bidder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Charly López",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.0",
+    "lodash": "^4.17.4",
+    "node-binance-api": "^0.3.0",
+    "qs": "^6.4.0",
+    "request": "^2.83.0",
+    "shortid": "^2.2.8",
+    "websocket": "^1.0.25",
+    "ws": "^2.2.3"
+  }
+}

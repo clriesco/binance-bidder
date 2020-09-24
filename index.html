@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Coin Bidder</title>
+        <link rel="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css"></link>
+
+        <style>
+        * { font-family:tahoma; font-size:12px; padding:0px; margin:0px; }
+        p { line-height:18px; }
+        div {  margin-left:20px; margin-right:20px;}
+        #content, #order, #status { padding:5px; background:#ddd; border-radius:5px; overflow-y: scroll;
+                   border:1px solid #CCC; margin-top:10px;}
+        .resolution {color: green; }
+        </style>
+    </head>
+    <body>
+        <div id="content"></div>
+        <div id="order"></div>
+        <label for="amount">Amount</label><input type="text" name="amount" class="form-control">
+        <button class="btn btn-primary">Enviar orden</button>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="./frontend.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>
